@@ -1,1 +1,1 @@
-https://Weff182.io/rsschool-cv/cv
+https://Weff182.io/rsschool-cv/
