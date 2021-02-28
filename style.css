@@ -1,52 +1,70 @@
 body {
   width: 50%;
-  position: absolute;
-  top: 3%;
-  left: 25%;
   margin: auto;
   background: url(115.jpg) no-repeat;
   background-position: initial;
-  background-size: 100%;
+  background-size: 250%;
   box-shadow: 0 0 20px 2px gray;
 }
-#Name {
-  font-family: "Snell Roundhand, cursive";
-  text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
-  font-size: 300%;
-  text-align: center;
+header {
+  width: 100%;
+  height: 100%;
 }
-#mainblock {
-  background: linear-gradient(to bottom, #62a1ac, #a1f8e5);
+h1 {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+main {
+  background: url(116.jpg) no-repeat;
   background-position: initial;
   background-size: 100%;
-  padding: 10px;
   margin-right: 20px;
   width: 100%;
 }
+footer {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+aside {
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
 .block1 {
   float: left;
-  padding: 10px;
-  margin-right: 20px;
+  margin-left: 20px;
   width: 50%;
 }
 .block2 {
-  padding: 5px;
   float: left;
   margin-right: 20px;
   width: 30%;
 }
+.block3 {
+  width: 100%;
+}
 .block4 {
-  padding: 10px;
   margin-right: 20px;
   width: 50%;
 }
-.block3 {
-  padding: 10px;
-  margin-right: 20px;
-  width: 100%;
-}
 .text {
+  width: 90%;
+  margin-left: 10px;
+  font-size: 20px;
   font-style: italic;
+  color: rgb(255, 255, 255);
 }
 .block4 .text {
   font-style: normal;
@@ -54,5 +72,11 @@ body {
   line-height: inherit;
 }
 h3 {
+  margin-left: 10px;
+  margin-top: 20px;
   line-height: 10%;
+  color: rgb(129, 100, 27);
+}
+br {
+  clear: left;
 }
